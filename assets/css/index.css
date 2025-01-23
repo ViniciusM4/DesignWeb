@@ -23,7 +23,7 @@ header .perfil{
 header .perfil .img-perfil{
     height: 260px;
     width: 369px;
-    background-image: url(/portfolio/assets/img/foto.png);
+    background-image: url(../img/foto.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ footer h2{
     header .perfil .img-perfil{
         height: 264px;
         width:  100%;
-        background-image: url(/portfolio/assets/img/img-card.jfif);
+        background-image: url(../img/card.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
