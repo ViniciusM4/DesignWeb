@@ -242,7 +242,7 @@ footer .right button:hover {
 }
 
 
-@media (max-width:556px) {
+@media (max-width:568px) {
 
     header .section-top,
     header .linha-1,
@@ -307,7 +307,7 @@ footer .right button:hover {
 }
 
 
-@media (min-width: 556px) {
+@media (min-width: 568px) {
     header .config {
         display: none; 
     }
