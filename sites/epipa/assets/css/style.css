@@ -238,7 +238,11 @@ footer .right button {
 footer .right button:hover {
     border: solid 3px #E8B743;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
-    ;
+}
+
+footer .imgsim{
+    display: flex;
+    border: 1px solid red;
 }
 
 
