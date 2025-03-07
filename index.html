@@ -2,118 +2,121 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portifolio</title>
 </head>
-<body>
-    <header>
-        <div class="perfil background-white">
-            <div class="img-perfil"></div>
-            <div class="name-perfil">
-                <strong>Vinícius</strong>
-                <small>Programador Web</small>
-            </div>
-        </div>
-        <div class="name background-white">
-            <strong>Vinícius</strong>
-            <p>Hello Word, meu nome é Vinícius. Sou Sou fã númerro 1 do Neymar e gosto de transformers.</p>
-        </div>
-    </header>
-
+<body class="flex">
     <main>
-        <section class="projects">
-            <h2>Meus Projetos Publicados</h2>
-
-            <div class="cards">
-                <div class="card background-white">
-                    <div class="img-pipa"></div>
-                    <div class="desc">
-                        <strong>E-pipa</strong>
-                        <p>Experiencia E-pipa</p>
-                    </div>
-                    <div class="link">
-                        <a href="sites/epipa/">Acesse o link</a>
-                    </div>
-                </div>
-                <div class="card background-white">
-                    <div class="img-card"></div>
-                    <div class="desc">
-                        <strong>CCHLA/ UFRN</strong>
-                        <p>Blog da UFRN</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">Acesse o link</a>
-                    </div>
-                </div>
-                <div class="card background-white">
-                    <div class="img-card"></div>
-                    <div class="desc">
-                        <strong>CCHLA/ UFRN</strong>
-                        <p>Blog da UFRN</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">Acesse o link</a>
-                    </div>
-                </div>
-                <div class="card background-white">
-                    <div class="img-card"></div>
-                    <div class="desc">
-                        <strong>CCHLA/ UFRN</strong>
-                        <p>Blog da UFRN</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">Acesse o link</a>
-                    </div>
-                </div>
-                <div class="card background-white">
-                    <div class="img-card"></div>
-                    <div class="desc">
-                        <strong>CCHLA/ UFRN</strong>
-                        <p>Blog da UFRN</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">Acesse o link</a>
-                    </div>
-                </div>
-                <div class="card background-white">
-                    <div class="img-card"></div>
-                    <div class="desc">
-                        <strong>CCHLA/ UFRN</strong>
-                        <p>Blog da UFRN</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">Acesse o link</a>
-                    </div>
-                </div>
-                <div class="card background-white">
-                    <div class="img-card"></div>
-                    <div class="desc">
-                        <strong>CCHLA/ UFRN</strong>
-                        <p>Blog da UFRN</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">Acesse o link</a>
-                    </div>
-                </div>
-                <div class="card background-white">
-                    <div class="img-card"></div>
-                    <div class="desc">
-                        <strong>CCHLA/ UFRN</strong>
-                        <p>Blog da UFRN</p>
-                    </div>
-                    <div class="link">
-                        <a href="#">Acesse o link</a>
-                    </div>
+        <section class="container-perfil flex">
+            <div class="perfil flex">
+                <img src="assets/img/lindao.jpg" alt="Foto">
+                <div class="content">
+                    <h2>Marcos Vinicius</h2>
+                    <div class="descrição">Programador Web</div>
                 </div>
             </div>
 
+            <div class="descricao-perfil">
+                <h2>Marcos Vinicius</h2>
+                <p>Hello Word, meu nome é Vinicius. Sou fã número 1 do Neymar e gostro de Transformers.</p>
+            </div>
+        </section>
+
+        <section class="projetos">
+            <h2>Meus projetos publicados</h2>
+            <div class="cards flex">
+
+                <div class="projeto e-pipa flex">
+                    <figure><img src="assets/img/pi.png" alt=""></figure>
+                    <div class="card-content flex">
+                        <h3>E-pipa</h3>
+                        <div class="descricao">Sobre a E-Pipa Experience</div>
+                        <a href="sites/epipa/index.html" class="azul">Acesse o link</a>
+                    </div>
+                </div>
+
+                <div class="projeto flex">
+                    <img src="assets/img/sem.png" alt="">
+                    <div class="card-content flex">
+                        <h3>Trabalho Final</h3>
+                        <div class="descricao">SEMADEC AWE 2025 </div>
+                        <a href="sites/semadec/index.html" class="azul">Acesse o link</a>
+                    </div>
+                </div>
+
+                <div class="projeto flex destaque">
+                    <img src="assets/img/card.png" alt="">
+                    <div class="card-content flex">
+                        <h3>Site do Econassu</h3>
+                        <div class="descricao">Site de evento acadêmico.</div>
+                        <div class="link flex">
+                            <a href="#" class="azul">Acesse o link</a>
+                            <a href="#" class="amarelo">Destaque</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto flex destaque">
+                    <img src="assets/img/card.png" alt="">
+                    <div class="card-content flex">
+                        <h3>Site do Econassu</h3>
+                        <div class="descricao">Site de evento acadêmico.</div>
+                        <div class="link flex">
+                            <a href="#" class="azul">Acesse o link</a>
+                            <a href="#" class="amarelo">Destaque</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto flex">
+                    <img src="assets/img/card.png" alt="">
+                    <div class="card-content flex">
+                        <h3>CCHLA/ UFRN</h3>
+                        <div class="descricao">Blog da UFRN</div>
+                        <a href="#" class="azul">Acesse o link</a>
+                    </div>
+                </div>
+
+                <div class="projeto flex">
+                    <img src="assets/img/card.png" alt="">
+                    <div class="card-content flex">
+                        <h3>Site das Piscinas</h3>
+                        <div class="descricao">Site institucional da Haas Piscinas </div>
+                        <a href="#" class="azul">Acesse o link</a>
+                    </div>
+                </div>
+
+                <div class="projeto flex destaque">
+                    <img src="assets/img/card.png" alt="">
+                    <div class="card-content flex">
+                        <h3>Portal IFRN</h3>
+                        <div class="descricao">Montagem completa do novo portal do IFRN.</div>
+                        <div class="link flex">
+                            <a href="#" class="azul">Acesse o link</a>
+                            <a href="#" class="amarelo">Destaque</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto flex destaque">
+                    <img src="assets/img/card.png" alt="">
+                    <div class="card-content flex">
+                        <h3>Portal IFRN</h3>
+                        <div class="descricao">Montagem completa do novo portal do IFRN.</div>
+                        <div class="link flex">
+                            <a href="#" class="azul">Acesse o link</a>
+                            <a href="#" class="amarelo">Destaque</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-
     <footer>
-        <h2>Informática para Internet - 2025</h2>
+        <div>Informática para Internet - 2024</div>
     </footer>
-
 </body>
+
 </html>
